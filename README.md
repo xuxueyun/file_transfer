@@ -23,9 +23,16 @@ basic_auth:
 ```
 
 ### 使用
-#### 启动
+#### 编译
 ```
 go build -o file_transfer main.go
+```
+这里将编译好的二进制程序放在了 `dist` 目录下
+[linux](https://github.com/vearne/file_transfer/tree/master/dist/linux)
+[mac]([linux](https://github.com/vearne/file_transfer/tree/master/dist/mac)
+
+#### 启用
+```
 nohup ./file_transfer&
 ```
 配置文件的搜索顺序为
