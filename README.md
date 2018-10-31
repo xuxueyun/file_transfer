@@ -27,9 +27,9 @@ basic_auth:
 ```
 go build -o file_transfer main.go
 ```
-这里将编译好的二进制程序放在了 `dist` 目录下
+这里将编译好的二进制程序放在了 `dist` 目录下, 可以直接使用
 [linux](https://github.com/vearne/file_transfer/tree/master/dist/linux)
-[mac]([linux](https://github.com/vearne/file_transfer/tree/master/dist/mac)
+[mac](https://github.com/vearne/file_transfer/tree/master/dist/mac)
 
 #### 启用
 ```
